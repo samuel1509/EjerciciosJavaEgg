@@ -8,7 +8,7 @@ public class NombreyEdad {
         mensaje(nombre,edad);
     }
 
-    static void mensaje(String nombre,int edad){
+    public static void mensaje(String nombre,int edad){
         System.out.println("Me llamo "+nombre+" y tengo "+edad+" anios.");
     }
 }
