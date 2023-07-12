@@ -1,3 +1,5 @@
 {
-    "java.debug.settings.onBuildFailureProceed": true
+    "java.debug.settings.onBuildFailureProceed": true,
+    "terminal.integrated.confirmOnKill": "panel",
+    "terminal.integrated.defaultProfile.windows": "Windows PowerShell"
 }

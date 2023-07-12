@@ -7,8 +7,7 @@ public class Persona {
     private Integer edad;
 
     private static Integer cantPersona=0;
-    
-   
+       
 
     //constructor po defecto
     public Persona(){
@@ -57,7 +56,7 @@ public class Persona {
      */
     public void setEdad(Integer edad) {
         //solo asigna edad si es mayor a 0
-        if(edad>0)  this.edad = edad;
+        if(edad>0) this.edad = edad;
     }
 
     //solo getter para saber la cantidad de instancias de persona
