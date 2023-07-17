@@ -27,7 +27,7 @@ public class ApplicationTest {
         System.setOut(originalOut);
 
         // Verificamos la salida esperada
-        String expectedOutput = "Por puntaje de 85 ptos, la calificacion es B";
+        String expectedOutput = "Ingrese el puntaje obtenido entre 0 y 100:\nPor puntaje de 85 ptos, la calificacion es B";
         assertEquals(expectedOutput, outContent.toString().trim());
     }
 }

@@ -1,3 +1,4 @@
+package desafio2;
 
 import java.util.Scanner;
 

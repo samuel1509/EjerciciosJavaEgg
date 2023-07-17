@@ -1,6 +1,5 @@
 package com.cma;
 
-import java.sql.Array;
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.Scanner;
@@ -25,15 +24,14 @@ public class Application {
         Scanner scan = new Scanner(System.in);
 
         Boolean salir;
-        
-        //lista de autos dinamica
-        ArrayList<Auto> listaAutos=new ArrayList<>();
+
+        // lista de autos dinamica
+        ArrayList<Auto> listaAutos = new ArrayList<>();
 
         Auto nuevoAuto;
         String marca;
         String modelo;
         Integer anio;
-
 
         // menu de opciones
         int op = 0;
@@ -46,46 +44,47 @@ public class Application {
             System.out.println("0-Salir ");
 
             System.out.println("Autos generados: " + Auto.getCantAutos());
-            
+
             System.out.println("-----------------------------------");
             System.out.print("Ingrese la opcion elegida: ");
             try {
                 op = scan.nextInt();
-                scan.nextLine();//limpia buffer teclado
-                switch(op){
-                    
-                    case 1://nuevo vacio
-                        nuevoAuto=new Auto();
+                scan.nextLine();// limpia buffer teclado
+                switch (op) {
+
+                    case 1:// nuevo vacio
+                        nuevoAuto = new Auto();
                         listaAutos.add(nuevoAuto);
-                    break;
-                    case 2://nuevo del año enc curso
+                        break;
+                    case 2:// nuevo del año enc curso
                         System.out.print("Ingrese marca: ");
-                        marca=scan.nextLine();
+                        marca = scan.nextLine();
                         System.out.println();
                         System.out.print("Ingrese modelo: ");
-                        modelo=scan.nextLine();
-                        nuevoAuto=new Auto(marca,modelo);
+                        modelo = scan.nextLine();
+                        nuevoAuto = new Auto(marca, modelo);
                         listaAutos.add(nuevoAuto);
-                    break;
-                    case 3://nuevo de años anteriores
+                        break;
+                    case 3:// nuevo de años anteriores
                         System.out.print("Ingrese marca: ");
-                        marca=scan.nextLine();
+                        marca = scan.nextLine();
                         System.out.println();
                         System.out.print("Ingrese modelo: ");
-                        modelo=scan.nextLine();
+                        modelo = scan.nextLine();
                         System.out.print("Ingrese anio: ");
                         try {
-                            anio=scan.nextInt();    
+                            anio = scan.nextInt();
                         } catch (Exception e) {
                             System.out.println("error al ingresar el anio. Se toma el anio en curso");
-                            anio= Integer.valueOf(LocalDate.now().getYear());
+                            anio = Integer.valueOf(LocalDate.now().getYear());
                         }
-                        nuevoAuto=new Auto(marca,modelo, anio);
+                        nuevoAuto = new Auto(marca, modelo, anio);
                         listaAutos.add(nuevoAuto);
-                    break;
+                        break;
 
-                    case 0:salir=true; 
-                    break;
+                    case 0:
+                        salir = true;
+                        break;
                 }
 
             } catch (Exception e) {
@@ -93,7 +92,7 @@ public class Application {
                 e.getMessage();
             }
 
-            //salir = true;
+            // salir = true;
 
         } while (!salir);
         scan.close();

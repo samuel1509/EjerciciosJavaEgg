@@ -4,12 +4,12 @@ public class Rectangulo {
     
     private double base;
     private double altura;
-    private static int contadorRectangulos=0;
+    private static int ContadorInstancias=0;
    
     public Rectangulo(double base, double altura){
         this.base=base;
         this.altura=altura;
-        contadorRectangulos++;
+        ContadorInstancias++;
     }
 
 
@@ -56,8 +56,8 @@ public class Rectangulo {
             this.altura = altura;
     }
 */
-    public static int getContadorRectangulos() {
-        return contadorRectangulos;
+    public static int getContadorInstancias() {
+        return ContadorInstancias;
     }
 
 }
