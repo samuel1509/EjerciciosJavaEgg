@@ -1,3 +1,4 @@
+package operaciones;
 
 /**
  *1. Dados dos números, realizar las 5 
