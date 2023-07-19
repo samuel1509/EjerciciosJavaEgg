@@ -1,4 +1,3 @@
-package ejerciciosIF;
 
 /*
  * Ejercicio de calificación: Escribir un programa 

@@ -1,4 +1,3 @@
-package ejerciciosSWITCH;
 
 import java.util.Scanner;
 

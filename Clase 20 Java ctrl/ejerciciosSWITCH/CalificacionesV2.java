@@ -1,4 +1,4 @@
-package ejerciciosSWITCH;
+
 /*
  * Ejercicio de conversión de calificaciones: Escribir un 
  * programa que solicite al usuario una calificación numérica 

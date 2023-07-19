@@ -1,4 +1,5 @@
-package ejerciciosIF;
+
+
 import java.util.Scanner;
 
 public class Divisibles {

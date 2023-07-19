@@ -1,4 +1,3 @@
-package ejerciciosIF;
 
 /*
  * Ejercicio de verificación de contraseña: 
