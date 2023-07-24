@@ -1,16 +1,17 @@
 package desafios;
-/*
-Desarrollar un programa en Java que genere una contraseña aleatoria. 
-Esta contraseña estará compuesta por una mezcla de letras mayúsculas, 
-letras minúsculas y dígitos. 
-La contraseña deberá ser almacenada en un arreglo de Character.
-Para la generación de la contraseña, utilice un bucle for que repita la operación 
-tantas veces como la longitud de la contraseña que haya especificado el usuario.
-Para comprobar que la contraseña generada contiene al menos una letra mayúscula, 
-una letra minúscula y un dígito, utilice bucles do-while y while con los métodos 
-isUpperCase, isLowerCase y isDigit de la clase Character.
-Finalmente, convierta el arreglo de caracteres en un String con un for  y 
-luego imprima la contraseña generada en la consola.
+
+/**
+* Desarrollar un programa en Java que genere una contraseña aleatoria. 
+* Esta contraseña estará compuesta por una mezcla de letras mayúsculas, 
+* letras minúsculas y dígitos. 
+* La contraseña deberá ser almacenada en un arreglo de Character.
+* Para la generación de la contraseña, utilice un bucle for que repita la operación 
+* tantas veces como la longitud de la contraseña que haya especificado el usuario.
+* Para comprobar que la contraseña generada contiene al menos una letra mayúscula, 
+* una letra minúscula y un dígito, utilice bucles do-while y while con los métodos 
+* isUpperCase, isLowerCase y isDigit de la clase Character.
+* Finalmente, convierta el arreglo de caracteres en un String con un for  y 
+* luego imprima la contraseña generada en la consola.
  */
 
 /*rango ascii de letras y numeros 48 a 122 */
