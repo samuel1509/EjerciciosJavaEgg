@@ -1,3 +1,4 @@
+package desafios;
 /*
 Desarrollar un programa en Java que genere una contraseña aleatoria. 
 Esta contraseña estará compuesta por una mezcla de letras mayúsculas, 

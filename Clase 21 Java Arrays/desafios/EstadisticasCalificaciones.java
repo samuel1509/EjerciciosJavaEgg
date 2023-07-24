@@ -1,18 +1,13 @@
-/*
+package desafios;
+/**
  Estadísticas de calificaciones
 Desarrollar un programa en Java que genere un arreglo de 
 calificaciones de manera aleatoria.
-
 Estas calificaciones se deben almacenar en un arreglo de Strings.
-
 Una vez generado el arreglo, el programa debe generar 3 arreglos nuevos,  
-
 separando las calificaciones entre desaprobado (< 4), aprobado (>= 4), y excelente (>=10).
-
 Necesitaras convertir los Strings a double para lograrlo.
-
 Luego debes calcular el promedio del arreglo original y de cada uno de los nuevos arreglos.
-
 Por ultimo imprime los resultado en consola.
  */
 
