@@ -1,15 +1,17 @@
-/*
- Números primos
-Solicitar al usuario que introduzca un número y verificar si es primo 
-utilizando un bucle do-while. 
-Un número es primo si solo tiene dos divisores: 1 y él mismo. 
-Si el número no es primo, pedir al usuario que introduzca otro número
-hasta que introduzca un número primo.
+
+/**
+ * Números primos
+ * Solicitar al usuario que introduzca un número y verificar si es primo 
+ * utilizando un bucle do-while. 
+ * Un número es primo si solo tiene dos divisores: 1 y él mismo. 
+ * Si el número no es primo, pedir al usuario que introduzca otro número
+ * hasta que introduzca un número primo.
+ * Un número es primo si solo tiene dos divisores: 1 y él mismo. 
  */
 
 import java.util.Scanner;
 
-public class numerosPrimos {
+public class NumerosPrimos {
   public static void main(String[] args) {
     Scanner scan = new Scanner(System.in);
     boolean salir;
@@ -45,5 +47,4 @@ public class numerosPrimos {
     scan.close();
     ;
   }
-
 }
