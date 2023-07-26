@@ -43,7 +43,7 @@ public class NumerosPrimos {
 
       scan.nextLine();// limpieza
     } while (!salir);
-    System.out.println("CONGREATULATIONS PRIMO: El nro ingresado(" + numero + ") es PRIMO!!!. Chau!!!!");
+    System.out.println("CONGRATULATIONS PRIMO: El nro ingresado(" + numero + ") es PRIMO!!!. Chau!!!!");
     scan.close();
     ;
   }
