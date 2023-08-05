@@ -1,0 +1,45 @@
+1. Tener las extensiones de vscode para Maven
+2. En la carpeta abierta con Vscode, click derecheo create Maven Project
+3. En el cuadro de configuracion inicial
+	More...
+	java17-basic-archetype
+	com.xxxxx(id de grupo del proyecto )
+	yyyyy(id artefacto de proyecto)
+4. seleccionar carpeta destino. Donde se abrio vscode
+	generando proyecto
+5.en la terminal de vscode
+	ingresar version, en gral 1.0
+6.pregunta si acepta config del proyecto -> Y
+7. si pide, se puede abrir en otra ventana de Vscode
+
+8.en el archivo pom.xml
+	cambiar version java 17 por 20 (o version en uso en la pc)
+	nota: ya se incluyen junit jupiter para pruevas unitarias
+	
+9.si pide sincronizar, se marca always, para que siempre se acutalicen las depencencias
+	genera un archivo .vscode -> settoings.json donde
+
+	{
+    	"java.configuration.updateBuildConfiguration": "automatic"
+	}
+
+con esto queda configurado un proyecto inicial de Maven (EGG)
+
+Para testing automation, iniciamos con Selenium
+
+10. agregar dependencias de Selenium en el archivo pom.xml del poryecto maven
+
+	<dependency>
+        	<groupId>org.seleniumhq.selenium</groupId>
+        	<artifactId>selenium-java</artifactId>
+        	<version>3.141.59</version>
+    	</dependency>
+	<dependency>
+            <groupId>io.github.bonigarcia</groupId>
+            <artifactId>webdrivermanager</artifactId>
+            <version>5.0.3</version>
+            <scope>test</scope>
+        </dependency>
+
+Maven descargara las dependencias necesarias
+y listo a usar Selenium
