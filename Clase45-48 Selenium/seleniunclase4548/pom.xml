@@ -3,8 +3,8 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.cmata</groupId>
-    <artifactId>seleniumta</artifactId>
+    <groupId>com.cma</groupId>
+    <artifactId>seleniunclase4548</artifactId>
     <version>1.0</version>
 
     <properties>
@@ -21,7 +21,6 @@
             <version>5.9.2</version>
             <scope>test</scope>
         </dependency>
-        
         <dependency>
         	<groupId>org.seleniumhq.selenium</groupId>
         	<artifactId>selenium-java</artifactId>
@@ -34,8 +33,9 @@
             <version>5.0.3</version>
             <scope>test</scope>
         </dependency>
+
     </dependencies>
-    
+
     <build>
         <plugins>
             <plugin>

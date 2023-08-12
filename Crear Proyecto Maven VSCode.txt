@@ -34,6 +34,7 @@ Para testing automation, iniciamos con Selenium
         	<artifactId>selenium-java</artifactId>
         	<version>3.141.59</version>
     	</dependency>
+
 	<dependency>
             <groupId>io.github.bonigarcia</groupId>
             <artifactId>webdrivermanager</artifactId>
